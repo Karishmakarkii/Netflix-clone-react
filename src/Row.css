@@ -1,0 +1,22 @@
+.row {
+    color: white;
+    margin-left: 20px;
+}
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    scrollbar-width: none;
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row_posters::-moz-scrollbar {
+    display: none;
+  }
+.row_poster {
+max-height: 100px;
+object-fit: contain;
+margin-right: 10px;
+}
