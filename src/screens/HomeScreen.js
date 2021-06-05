@@ -1,9 +1,10 @@
 import React from 'react'
-import Banner from './Banner'
+import Banner from "../Banner"
 import "./HomeScreen.css"
-import Nav from './Nav'
-import requests from "./Request"
-import Row from './Row'
+import Nav from '../Nav'
+import requests from "../Request"
+import Row from '../Row'
+
 
 export default function HomeScreen() {
     return (
@@ -37,6 +38,7 @@ export default function HomeScreen() {
             title="Documentaries"
             fetchUrl = {requests.fetchDocumentaries}/>
             
+
         </div>
     )
 }
